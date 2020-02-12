@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
 
     android:background="#ff000000"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/getIp"
@@ -12,16 +12,9 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
+        android:text="TextView"
         android:textColor="#ffff0000"
-        android:textSize="26sp"
-        android:text="TextView" />
+        android:textSize="26sp" />
 
-    <Button
-        android:id="@+id/showBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Show IP adress"
-        android:gravity="center_horizontal"
-        android:onClick="show"/>
 
 </RelativeLayout>
